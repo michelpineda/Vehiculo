@@ -13,14 +13,5 @@ public class App
         auto.mostrarinfo();
         System.out.println("\nlnformación del Camion: ");
         camion .mostrarlnfo();
-
-//----------------------------------------------------------------------------------------------------------------------------------------------------------//
-        // Presentando costo de mantenimiento del Auto.
-        Auto miAuto = auto;
-        miAuto.realizarMantenimiento();
-        double costoPorKm = 0.1; // Costo por kilómetro
-        double kilometrosRecorridos = 1000; // Kilómetros recorridos
-        double costoTotal = miAuto.calcularCostoMantenimiento(costoPorKm, kilometrosRecorridos);
-        System.out.println("Costo total de mantenimiento del auto: $" + costoTotal);
     }
 }

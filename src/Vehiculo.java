@@ -54,15 +54,4 @@ public void mostrarinfo()
         System.out.println("Año: " + año);
         System.out. println("Kilometraje: " + kilometraje); 
     }
-
-    //----------------------------------------------------------------------------------------------------------------------------------------------------------//
-//Método para realizar mantenimiento básico
-    public void realizarMantenimiento() 
-    {
-        System.out.println("Realizando mantenimiento básico del vehículo...");
-        //Acciones de mantenimiento
-        System.out.println("Verificando niveles de aceite y líquido de frenos.");
-        System.out.println("Revisando el filtro de aire y cambiándolo si es necesario.");
-        System.out.println("Comprobando el estado de las bujías y reemplazándolas si están desgastadas.");
-    }
 }

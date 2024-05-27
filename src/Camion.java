@@ -28,17 +28,4 @@ public class Camion extends VehiculoCarga
         super.mostrarinfo();
         System.out.println("Número de Ejes: "+ numEjes);
     }
-
-//----------------------------------------------------------------------------------------------------------------------------------------------------------//
-    //Implementando derivada de mantenimiento
-    // Implementación específica para Camion
-    @Override
-    public void realizarMantenimiento() 
-    {
-        System.out.println("\nRealizando mantenimiento básico para Camión...");
-        // Mantenimiento básico para Camión
-        System.out.println("Inspeccionando el sistema de frenos y ajustando si es necesario.");
-        System.out.println("Verificando la presión de los neumáticos y corrigiéndola según las especificaciones.");
-        System.out.println("Revisando el sistema de escape y sellando posibles fugas.");
-    }
 }
