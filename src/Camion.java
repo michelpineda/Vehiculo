@@ -23,7 +23,7 @@ public class Camion extends VehiculoCarga
 
     // Sobrescribir el método mostrarInfo ()
     //@Override
-    public void mostrarInfo()
+    public void mostrarinfo()
     {
         super.mostrarinfo();
         System.out.println("Número de Ejes: "+ numEjes);

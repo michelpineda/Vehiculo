@@ -15,13 +15,13 @@ public class Auto extends VehiculoPasajeros
     }
     public void setTipoCombustible(String tipoCombustible)
     {
-        this. tipoCombustible = tipoCombustible;
+        this.tipoCombustible = tipoCombustible;
     }
     // Sobrescribir el método mostrarlnfo()
-    //@Override
-    public void mostrarlnfo()
+    @Override
+    public void mostrarinfo()
     {
         super.mostrarinfo();
-        System. out. println( "Tipo de Combustible: " + tipoCombustible);
+        System.out.println( "Tipo de Combustible: " + tipoCombustible);
     }
 }

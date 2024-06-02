@@ -9,17 +9,17 @@ public class VehiculoPasajeros extends Vehiculo
         this.numPasajeros = numPasajeros;
     }
     // Getter y Setter para numPasajeros
-    public int getumPasajeros0() 
+    public int getNumPasajeros() 
     {
         return numPasajeros;
     }
-    public void setNu111Pasajeros(int numPasajeros)
+    public void setNumPasajeros(int numPasajeros)
     {
         this.numPasajeros = numPasajeros;
     }
     // Sobrescribir el m~todo mostrarInfo()
-    //@Override
-    public void raostrarlnfo()
+    @Override
+    public void mostrarinfo()
     {
         super.mostrarinfo();
         System.out.println("Numeros de pasajeros: " + numPasajeros);

@@ -12,6 +12,6 @@ public class App
         System.out.println("Información del Auto: ");
         auto.mostrarinfo();
         System.out.println("\nlnformación del Camion: ");
-        camion .mostrarlnfo();
+        camion .mostrarinfo();
     }
 }

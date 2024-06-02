@@ -1,6 +1,6 @@
 public class Vehiculo 
 {
-    private  String marca;
+    private String marca;
     private String modelo;
     private int año;
     private int kilometraje;
@@ -52,6 +52,6 @@ public void mostrarinfo()
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Año: " + año);
-        System.out. println("Kilometraje: " + kilometraje); 
+        System.out.println("Kilometraje: " + kilometraje); 
     }
 }
