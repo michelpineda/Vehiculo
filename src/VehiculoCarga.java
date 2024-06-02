@@ -17,8 +17,8 @@ public class VehiculoCarga extends Vehiculo
         this.capacidadCarga = capacidadCarga;
     }
     // Sobrescribir el m~todo mostrarInfo()
-    //@Override
-    public void mostrarlnfo()
+    @Override
+    public void mostrarinfo()
     {
         super.mostrarinfo();
         System.out.println("Capacidad de Carga: " + capacidadCarga + " kg");

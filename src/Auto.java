@@ -15,14 +15,14 @@ public class Auto extends VehiculoPasajeros
     }
     public void setTipoCombustible(String tipoCombustible)
     {
-        this. tipoCombustible = tipoCombustible;
+        this.tipoCombustible = tipoCombustible;
     }
     // Sobrescribir el método mostrarlnfo()
-    //@Override
-    public void mostrarlnfo()
+    @Override
+    public void mostrarinfo()
     {
         super.mostrarinfo();
-        System. out. println( "Tipo de Combustible: " + tipoCombustible);
+        System.out.println( "Tipo de Combustible: " + tipoCombustible);
     }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -30,7 +30,7 @@ public class Auto extends VehiculoPasajeros
     @Override
     public void realizarMantenimiento() 
     {
-        System.out.println("\nRealizando mantenimiento básico para Auto...");
+        System.out.println("Realizando mantenimiento básico para Auto...");
         // Mantenimiento básico para Auto
         System.out.println("Verificando niveles de aceite y líquido de frenos.");
         System.out.println("Revisando el filtro de aire y cambiándolo si es necesario.");
